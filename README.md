@@ -13,9 +13,9 @@
 
 # TODO List
 
-- [ ] Release datasets
-- [ ] Release test codes
-- [ ] Release training codes
+✅ Release datasets in 🤗Hugging Face [QGround-100K](https://huggingface.co/datasets/chaofengc/QGround-100K)   
+⬜ Release test codes  
+⬜ Release training codes  
 
 # Citation
 
