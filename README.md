@@ -84,8 +84,6 @@ The released training pipeline uses four stages. Compared with the paper version
 
 Run the stages in order using `bash train_stage[1-4].sh`.
 
-Because the base model (`llava-v1.5-7b`) was originally trained in FP16, we recommend using FP16 in Stage 1 to reduce numerical instability during early alignment. Starting from Stage 2, BF16 is generally preferred for better training stability and final performance. You can still try other precision settings based on your hardware and software stack.
-
 Each stage script launches `./train_ds.py` with DeepSpeed and saves a Hugging Face-style checkpoint to a local output directory (for example, `./qg_model_multiscale_stage1` to `./qg_model_multiscale_stage4`).
 
 ### Training Notes
