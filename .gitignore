@@ -1,0 +1,34 @@
+dataset*
+run*
+tmp*
+qg_model*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Testing / coverage
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
