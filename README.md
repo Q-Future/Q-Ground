@@ -114,9 +114,9 @@ Compared with the paper, the extra mask decoder pretraining stage (Stage 3) sign
 | Model | Jitter | Noise | Overexposure | Blur | Low light | Average |
 | --- | --- | --- | --- | --- | --- | --- |
 | Paper mIoU | 0.434 | 0.051 | 0.125 | 0.460 | 0.219 | 0.271 |
-| Released mIoU | 0.4201 | 0.1793 | 0.2756 | 0.4651 | 0.2971 | 0.3274 |
+| **Released mIoU** | **0.4201** | **0.1793** | **0.2756** | **0.4651** | **0.2971** | **0.3274** |
 | Paper mAcc | 0.720 | 0.176 | 0.459 | 0.648 | 0.337 | 0.539 |
-| Released mAcc | 0.7187 | 0.4138 | 0.5172 | 0.6098 | 0.4461 | 0.5411 |
+| **Released mAcc** | **0.7187** | **0.4138** | **0.5172** | **0.6098** | **0.4461** | **0.5411** |
 
 ## Citation
 
