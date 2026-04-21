@@ -345,7 +345,7 @@ def get_iou_acc(pred_results_path):
         for ai in ti['ann_list']:
             gt_img_name = ai['segmentation_mask']
 
-            gt_img_path = os.path.join('./dataset/qground/masks/', gt_img_name)
+            gt_img_path = os.path.join('./dataset/qground_dataset/masks/', gt_img_name)
             pred_img_path = os.path.join(pred_results_path, os.path.basename(gt_img_name))
             
             gt_labels = rgb2label(np.array(Image.open(gt_img_path)))
